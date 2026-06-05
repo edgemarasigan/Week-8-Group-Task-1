@@ -86,7 +86,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>☕ Coffee Shop Menu</Text>
+      <Text style={styles.title}>☕ EJ's Coffee Shop Menu</Text>
       <FlatList
         data={menuItems}
         keyExtractor={(item) => item.id}
